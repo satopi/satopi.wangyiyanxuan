@@ -1,0 +1,55 @@
+#leftSide{
+	width: 108px;
+	height: 434px;
+	background: white;
+	border: 1px solid #f0f0f0;
+	text-align: center;
+	position: absolute;
+	top: 700px;
+	left: 50px;
+}
+
+.lSide{
+	width: 51.2px;
+	height: 35.2px;
+	padding-left: 26px;
+	border-bottom: 1px solid #f0f0f0;
+	text-align: center;
+	line-height: 35.2px;
+	margin: 0 auto;
+	font-size: 12px;
+	position: relative;
+}
+
+.lSide a{
+	text-decoration: none;
+}
+
+.left_pic{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+    top: 2px;
+    left: -2px;
+}
+
+.lSide1{
+	line-height: 18px;
+}
+
+#littleTitle a{
+	text-decoration: none;
+	color: #BB3343;
+	font-weight: 700;
+}
+
+#lSide_title{
+	width: 108px;
+	color: #BB3343;
+	background-image: url(../img/i_leftSide/i_leftSide0.png);
+	text-align: center;
+    line-height: 38px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 700;
+}

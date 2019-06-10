@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+		<link rel="stylesheet" href="commonCss/base.css" />
+		<link rel="stylesheet" href="css/details.css" />
+		<link rel="stylesheet" href="commonCss/rightSide.css" />
+		<link rel="stylesheet" href="commonCss/header.css" />
+		<link rel="stylesheet" href="commonCss/icon.css" />
+		<link rel="stylesheet" href="commonCss/iconfont.css" />
+		<link rel="stylesheet" href="commonCss/footer.css" />
+		<script type="text/javascript" src="commonJs/jquery.js" ></script>
+		<script type="text/javascript" src="js/details_aside.js" ></script>
+		<script type="text/javascript" src="js/details.js" ></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header></header>
+		<script>
+			$('header').load("commonHtml/header.html")
+		</script>
+		
+		<!--商品详情-->
+		<div id="detailsNav" class="t">
+			<div id="detailsC" class="c">
+				<section id="d_index">
+					首页<span>&nbsp;>&nbsp;</span>
+					居家<span>&nbsp;>&nbsp;</span>
+					床品套件<span>&nbsp;>&nbsp;</span>
+					霓裳凤翎刺绣婚庆十件套
+				</section>
+				<section id="detailsBox">
+					<div id="detailsPicBox">
+						<section class="detailsPic">
+							<img src="img/details/d_bigPic0.jpg" />
+							<div id="d_square"></div>
+							<section id="d_magnifier" class="detailsPic">
+								<img src="img/details/d_bigPic0.jpg" id="d_magBigPic"/>
+							</section>
+						</section>
+						<ul id="detailsBtnBox">
+							<li class="detailsBtn">
+								<img src="img/details/d_btns0.png" />
+							</li>
+							<li class="detailsBtn">
+								<img src="img/details/d_btns1.jpg" />
+							</li>
+							<li class="detailsBtn">
+								<img src="img/details/d_btns2.jpg" />
+							</li>
+							<li class="detailsBtn">
+								<img src="img/details/d_btns3.jpg" />
+							</li>
+							<li class="detailsBtn">
+								<img src="img/details/d_btns4.jpg" />
+							</li>
+						</ul>
+					</div>
+					<div id="detailsTextBox">
+						<section id="d_textSpan">
+							<span id="d_newSpan">新品</span>
+						</section>
+						<section id="d_textTitle">
+							<span>霓裳凤翎刺绣婚庆十件套</span>
+						</section>
+						<section id="d_introducce">凤翎精致蕾丝刺绣，百支奢密风光大嫁</section>
+						<div id="d_intro">
+							<div class="d_introPriceBox">
+								<section id="d_priceBox">
+									<span class="d_priceTitle">价格</span>
+									<span class="d_price">¥2399</span>
+								</section>
+								<section id="d_superuser">
+									<i id="d_superIcon"></i>
+									<span>超级会员专享价¥2279.10</span>
+									<a href="#">立即开通&nbsp;></a>
+								</section>
+							</div>
+							<div class="d_introDiscountBox">
+								<span class="d_priceTitle d_disTitle">津贴</span>
+								<img src="img/details/d_discount.PNG" />
+								<a href="#">去领取&nbsp;></a>
+							</div>
+							<div class="d_introDiscountBox">
+								<span class="d_priceTitle d_disTitle">领券</span>
+								<img src="img/details/d_discount2.PNG" id="p_disPic2"/>
+							</div>
+							<div class="d_introDiscountBox">
+								<span class="d_priceTitle d_disTitle">促销</span>
+								<img src="img/details/d_discount3.PNG" id="p_disPic3"/>
+							</div>
+							<div class="d_introDiscountBox">
+								<span class="d_priceTitle d_disTitle">积分</span>
+								<span class="d_mark">购买最高得239积分</span>
+							</div>
+							<div class="d_introDiscountBox" id="d_sendBox">
+								<span class="d_priceTitle d_disTitle">配送</span>
+								<span class="d_mark">广东发货，约2~3个工作日发货</span>
+								<section id="d_send"></section>
+							</div>
+							<div class="d_introDiscountBox">
+								<span class="d_priceTitle d_disTitle">服务</span>
+								<img src="img/details/d_service.PNG" id="p_serPic"/>
+							</div>
+						</div>
+						<section class="d_select">
+							<span class="d_name">尺寸</span>
+							<div class="d_selPic">
+								<section id="d_selIcon"></section>
+								<img src="img/details/d_select.png" />
+							</div>
+						</section>
+						<section class="d_select" id="d_number">
+							<span class="d_name">数量</span>
+							<div id="d_numBox">
+								<button id="numMin" class="numChange">-</button>
+								<input type="text" value="1" id="numText"/>
+								<button id="numSum" class="numChange">+</button>
+							</div>
+						</section>
+						<section id="buttonBox">
+							<button class="d_button" id="d_buyButton">立即购买</button>
+							<button class="d_button" id="d_shopCarButton">
+								<span class="iconfont">&#xe635;</span>
+								加入购物车
+							</button>
+							<div class="d_collection">
+								<span id="d_collectIcon">☆</span>
+								<p>收藏</p>
+							</div>
+						</section>
+					</div>
+				</section>
+				<!--吸顶-->
+				<div id="d_topNav" class="t">
+					<div id="d_topC" class="c">
+						<ul class="d_top">
+							<li class="d_tab d_topBtns1">详情</li>
+							<li class="d_tab d_topBtns">
+								评价
+								<span>(0)</span>
+							</li>
+							<li class="d_tab d_topBtns">常见问题</li>
+						</ul>
+						<button class="d_addShopCar">加入购物车</button>
+					</div>
+				</div>
+				<section class="d_picBox" id="d_details">
+					<img src="img/details/d_Pic0.PNG" class="d_pic1"/>
+					<img src="img/details/d_Pic1.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic2.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic3.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic4.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic5.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic6.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic7.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic8.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic9.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic10.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic11.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic12.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic13.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic14.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic15.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic16.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic17.jpg" class="d_pic"/>
+					<img src="img/details/d_Pic18.jpg" class="d_pic"/>
+				</section>	
+				
+				<section class="d_picBox" id="d_comment">
+					<img src="img/details/d_intro.PNG" class="d_pic"/>
+				</section>
+				
+				<section class="d_picBox" id="d_question">
+					<img src="img/details/d_question1.PNG" class="d_pic"/>
+					<img src="img/details/d_question2.PNG" class="d_pic"/>
+				</section>
+			</div>
+		</div>
+		
+			
+		<!--侧边栏-->
+		<div id="d_raside">
+			<aside id="rightNav"></aside>
+		</div>
+		<script>
+			$('#rightNav').load("commonHtml/rightSide.html")
+		</script>
+			
+		<!--脚部-->
+		<div id="details_footer" class="t">
+			<footer></footer>
+		</div>
+		<script>
+			$('footer').load("commonHtml/footer.html")
+		</script>
+	</body>
+</html>

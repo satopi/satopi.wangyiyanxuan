@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="commonJs/jquery.js" ></script>
+		<script type="text/javascript" src="js/i_newArr.js" ></script>
+		<script type="text/javascript" src="js/i_popularArr.js" ></script>
+		<script type="text/javascript" src="js/i_sayArr.js" ></script>
+		<script type="text/javascript" src="js/carousel.js" ></script>
+		<script type="text/javascript" src="js/i_popular.js" ></script>
+		<script type="text/javascript" src="js/i_new.js" ></script>
+		<script type="text/javascript" src="js/c_carousel.js" ></script>
+		<script type="text/javascript" src="js/i_clothes.js" ></script>
+		<script type="text/javascript" src="js/i_say.js" ></script>
+		<script type="text/javascript" src="commonJs/header.js" ></script>
+		<link rel="stylesheet" href="commonCss/base.css" />
+		<link rel="stylesheet" href="commonCss/header.css" />
+		<link rel="stylesheet" href="commonCss/icon.css" />
+		<link rel="stylesheet" href="commonCss/iconfont.css" />
+		<link rel="stylesheet" href="commonCss/footer.css" />
+		<link rel="stylesheet" href="commonCss/rightSide.css" />
+		<link rel="stylesheet" href="css/i_carousel.css" />
+		<link rel="stylesheet" href="css/i_market.css" />
+		<link rel="stylesheet" href="css/i_brand.css" />
+		<link rel="stylesheet" href="css/i_new.css" />
+		<link rel="stylesheet" href="css/i_popular.css" />
+		<link rel="stylesheet" href="css/i_limitedTime.css" />
+		<link rel="stylesheet" href="css/i_clothes.css" />
+		<link rel="stylesheet" href="css/i_selection.css" />
+		<link rel="stylesheet" href="css/i_say.css" />
+		<link rel="stylesheet" href="commonCss/leftSide.css" />
+		<title>网易严选</title>
+		<style></style>
+	</head>
+	<body>
+		<header></header>
+		<script>
+			$('header').load("commonHtml/header.html")
+		</script>
+		<!--轮播-->
+		<div id="i_carousel" class="t">		
+			<div id="i_carouselPic" class="c">	
+			<div id="i_carouselC">
+				<section id="leftButton" class="i_button"></section>
+				<section id="rightButton" class="i_button"></section>
+			</div>
+				<ul id="picBox">	
+					<li class="bigPic"><img src="img/i_carousel/i_carousel0.jpg" /></li>
+					<li class="bigPic"><img src="img/i_carousel/i_carousel1.jpg" /></li>
+					<li class="bigPic"><img src="img/i_carousel/i_carousel2.jpg" /></li>
+					<li class="bigPic"><img src="img/i_carousel/i_carousel3.jpg" /></li>
+					<li class="bigPic"><img src="img/i_carousel/i_carousel4.jpg" /></li>
+					<li class="bigPic"><img src="img/i_carousel/i_carousel5.jpg" /></li>
+					<li class="bigPic"><img src="img/i_carousel/i_carousel6.jpg" /></li>
+					<li class="bigPic"><img src="img/i_carousel/i_carousel7.jpg" /></li>
+					<li class="bigPic"><img src="img/i_carousel/i_carousel0.jpg" /></li>
+				</ul>
+				<ul id="btnBox">
+					<li class="picBtn c" style="background: #B89A61;">
+					</li>
+					<li class="picBtn"></li>
+					<li class="picBtn"></li>
+					<li class="picBtn"></li>
+					<li class="picBtn"></li>
+					<li class="picBtn"></li>
+					<li class="picBtn"></li>
+					<li class="picBtn"></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--严选年货集市-->
+		<div id="market" class="t">
+			<ul id="marketNav" class="c">
+				<li class="mBtns" style="background-image: url(img/i_marketbg/i_marketbg1.jpg); height: 120px;">
+					<img id="marketPic" src="img/i_market/i_market.png" />			
+				</li>
+				<li class="mBtns" style="background-image: url(img/i_marketbg/i_marketbg2.jpg);">
+					<div id="m_picBox">
+						<img src="img/i_market/i_market0.png"/>
+						<img src="img/i_market/i_market1.png"/>
+						<img src="img/i_market/i_market2.png"/>
+						<img src="img/i_market/i_market3.png"/>
+					</div>
+				</li>
+				<li class="mBtns" style="background-image: url(img/i_marketbg/i_marketbg3.jpg);">
+					<div id="m_picBox">
+						<img src="img/i_market/i_market4.png"/>
+						<img src="img/i_market/i_market5.png"/>
+						<img src="img/i_market/i_market6.png"/>
+						<img src="img/i_market/i_market7.png"/>
+					</div>
+				</li>
+				<li class="mBtns" style="background-image: url(img/i_marketbg/i_marketbg4.jpg);">
+					<div id="m_picBox">
+						<img src="img/i_market/i_market8.png"/>
+						<img src="img/i_market/i_market9.png"/>
+						<img src="img/i_market/i_market10.png"/>
+						<img src="img/i_market/i_market11.png"/>
+					</div>
+				</li>
+				<li class="mBtns" style="background-image: url(img/i_marketbg/i_marketbg5.jpg);"></li>
+			</ul>
+			
+			<aside id="leftNav"></aside>
+			<script>
+				$('#leftNav').load("commonHtml/leftSide.html")
+			</script>
+			
+			<aside id="rightNav"></aside>
+			<script>
+				$('#rightNav').load("commonHtml/rightSide.html")
+			</script>
+		</div>
+		
+		<!--品牌制造商-->
+		<div id="brand" class="c">
+			<h3>品牌制造商</h3>
+			<span>工厂直达消费者，剔除品牌溢价</span>
+			<section class="brandBox" id="b_box1">
+				<p class="b_p1">海外制造商</p>
+				<img class="b_pic" src="img/brand/brand0.jpg" />			
+				<span class="b_span2">9.9元起</span>
+			</section>
+			<section class="brandBox" id="b_box2">
+				<p class="b_p1">CK制造商</p>
+				<img class="b_pic" src="img/brand/brand1.png" />			
+				<span class="b_span2">25元起</span>
+			</section>
+			<section class="brandBox" id="b_box3">
+				<p class="b_p2">新秀丽制造商</p>				
+				<img class="b_pic" src="img/brand/brand2.png" />
+				<p class="b_p3">34.9元起</p>				
+			</section>
+			<section class="brandBox" id="b_box4">
+				<p class="b_p2">MUJI制造商</p>				
+				<img class="b_pic" src="img/brand/brand3.jpg" />
+				<p class="b_p3">35元起</p>				
+			</section>
+		</div>
+	
+		<!--新品首发-->
+		<div id="new" class="c">
+			<h3>新品首发</h3>
+			<span class="n_span">为你寻遍世间好物</span>
+			<p id="moreNew">更多新品&nbsp;></p>
+			<section id="n_leftButton" class="i_button"></section>
+			<section id="n_rightButton" class="i_button"></section>
+			<div id="show">
+				<ul id="newPicBox"></ul>
+			</div>
+		</div>
+	
+		<!--人气推荐-->
+		<div id="popular" class="t">
+			<section id="popularC" class="c">
+				<h3>人气推荐</h3>
+				<ul id="p_nav">
+					<li class="p_btns" id="p_nav1">编辑推荐</li>
+					<li class="p_btns" id="p_nav2">热销总榜</li>
+				</ul>
+				<p id="morePopular">更多推荐&nbsp;></p>
+				<div id="p_goodsBox">
+					<section id="p_goodsBox2">
+						<div id="p_picBox1">
+							<img src="img/i_popular/i_popular0-0.png" class="p_pic"/>
+						</div>
+						<hr />
+						<div id="p_textBox1">
+							<section id="p_text">
+								<span>三石福利价</span>
+							</section>
+							<h4>升级款95%白鹅绒秋冬加厚羽绒被</h4>
+							<p class="p_price">
+								<span class="p_price1">¥896</span>
+								<span class="p_price2">¥1149</span>
+							</p>
+						</div>
+					</section>
+					<ul id="p_goodsBox3">
+						<li class="p_goodsBox4">
+							<div class="p_picBox2">
+								<img src="img/i_popular/i_popular1-0.png" class="p_pic"/>
+							</div>
+							<hr />
+							<div class="p_textBox2">
+								<section class="p_text">
+									<span>满赠</span>
+								</section>
+								<h4>泰国制造 天然乳胶枕 护颈优眠 ...</h4>
+								<p class="p_smallPrice">
+									<span class="p_price3">¥199</span>
+									<span class="p_price4"></span>
+								</p>
+							</div>
+						</li>
+						<li class="p_goodsBox4">
+							<div class="p_picBox2">
+								<img src="img/i_popular/i_popular2-0.png" class="p_pic"/>
+							</div>
+							<hr />
+							<div class="p_textBox2">
+								<section class="p_text">
+									<span>三石福利价</span>
+								</section>
+								<h4>男式中长无缝羽绒服</h4>
+								<p class="p_smallPrice">
+									<span class="p_price3">¥499</span>
+									<span class="p_price4">¥899</span>
+								</p>
+							</div>
+						</li>
+						<li class="p_goodsBox4">
+							<div class="p_picBox2">
+								<img src="img/i_popular/i_popular3-0.png" class="p_pic"/>
+							</div>
+							<hr />
+							<div class="p_textBox2">
+								<section class="p_text">
+									<span>三石福利价</span>
+								</section>
+								<h4>泰国制造 天然乳胶床垫 5CM标 ...</h4>
+								<p class="p_smallPrice">
+									<span class="p_price3">¥1499</span>
+									<span class="p_price4">¥1999</span>
+								</p>
+							</div>
+						</li>
+						<li class="p_goodsBox4">
+							<div class="p_picBox2">
+								<img src="img/i_popular/i_popular4-0.png" class="p_pic"/>
+							</div>
+							<hr />
+							<div class="p_textBox2">
+								<section class="p_text">
+									<span>三石福利价</span>
+								</section>
+								<h4>网易智造N520除螨吸尘器</h4>
+								<p class="p_smallPrice">
+									<span class="p_price3">¥424</span>
+									<span class="p_price4">¥499</span>
+								</p>
+							</div>
+						</li>
+						<li class="p_goodsBox4">
+							<div class="p_picBox2">
+								<img src="img/i_popular/i_popular5-0.png" class="p_pic"/>
+							</div>
+							<hr />
+							<div class="p_textBox2">
+								<section class="p_text">
+									<span>年货节特卖</span>
+								</section>
+								<h4>全棉针织条纹四件套 新款</h4>
+								<p class="p_smallPrice">
+									<span class="p_price3">¥239</span>
+									<span class="p_price4">¥299</span>
+								</p>
+							</div>
+						</li>
+						<li class="p_goodsBox4">
+							<div class="p_picBox2">
+								<img src="img/i_popular/i_popular6-0.png" class="p_pic"/>
+							</div>
+							<hr />
+							<div class="p_textBox2">
+								<section class="p_text">
+									<span>年货节特卖</span>
+								</section>
+								<h4>28寸 纯PC“铝框”（非全铝） ...</h4>
+								<p class="p_smallPrice">
+									<span class="p_price3">¥373</span>
+									<span class="p_price4">¥439</span>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	
+		<!--限时购-->
+		<div id="limitedTime" class="c">
+			<h3>限时购</h3>
+			<p id="moreShop">更多抢购&nbsp;></p>
+			<section id="timer">
+				<p id="l_p1">10点场</p>
+				<p id="l_p2">距离结束还剩</p>
+				<ul id="time">
+					<li class="countDown">
+						<span>2</span>
+					</li>
+					<span id="colon1">:</span>
+					<li class="countDown">
+						<span>2</span>
+					</li>
+					<span id="colon2">:</span>
+					<li class="countDown">
+						<span>2</span>
+					</li>
+				</ul>
+				<div id="checkAll">
+					<span>查看全部&nbsp;></span>
+				</div>
+			</section>
+			<ul id="l_goodsBox">
+				<li class="l_goods">
+					<section class="l_pic">
+						<img src="img/i_limiTime/i_limiTime0.png" class="l_img"/>
+					</section>
+					<section class="l_text">
+						<h2>冬夏两用 护脊椰棕弹簧床垫</h2>
+						<p>硬度偏好者优选</p>
+						<div class="item">
+							<section class="sliver"></section>
+							<section class="itemNum"></section>
+							<span>还剩134件</span>
+						</div>
+						<div class="l_price">
+							<span class="l_priceText">限时价</span>
+							<span class="l_price1">¥1679</span>
+							<span class="l_price2">¥2099</span>
+						</div>
+						<button class="buy">立即抢购</button>
+					</section>
+				</li>
+				<li class="l_goods">
+					<section class="l_pic">
+						<img src="img/i_limiTime/i_limiTime1.png" class="l_img"/>
+					</section>
+					<section class="l_text">
+						<h2>复古电热水壶</h2>
+						<p>让每一杯水，都温暖你的心</p>
+						<div class="item">
+							<section class="sliver"></section>
+							<section class="itemNum"></section>
+							<span>还剩387件</span>
+						</div>
+						<div class="l_price">
+							<span class="l_priceText">限时价</span>
+							<span class="l_price1">¥219</span>
+							<span class="l_price2">¥299</span>
+						</div>
+						<button class="buy">立即抢购</button>
+					</section>
+				</li>
+				<li class="l_goods">
+					<section class="l_pic">
+						<img src="img/i_limiTime/i_limiTime2.png" class="l_img"/>
+					</section>
+					<section class="l_text">
+						<h2>负离子可折叠便携吹风机</h2>
+						<p>轻盈便携，可护发的吹风机</p>
+						<div class="item">
+							<section class="sliver"></section>
+							<section class="itemNum"></section>
+							<span>还剩568件</span>
+						</div>
+						<div class="l_price">
+							<span class="l_priceText">限时价</span>
+							<span class="l_price1">¥74.9</span>
+							<span class="l_price2">¥99</span>
+						</div>
+						<button class="buy">立即抢购</button>
+					</section>
+				</li>
+				<li class="l_goods">
+					<section class="l_pic">
+						<img src="img/i_limiTime/i_limiTime3.png" class="l_img"/>
+					</section>
+					<section class="l_text">
+						<h2>17寸 全铝镁合金登机箱</h2>
+						<p>小巧38L 商务短途出行更自在</p>
+						<div class="item">
+							<section class="sliver"></section>
+							<section class="itemNum"></section>
+							<span>还剩154件</span>
+						</div>
+						<div class="l_price">
+							<span class="l_priceText">限时价</span>
+							<span class="l_price1">¥594</span>
+							<span class="l_price2">¥699</span>
+						</div>
+						<button class="buy">立即抢购</button>
+					</section>
+				</li>
+			</ul>
+		</div>
+		
+		<!--鞋包配饰-->
+		<div id="clothes" class="c">
+			<h3>鞋包配饰</h3>
+			<ul id="c_nav">
+				<li class="c_list">行李箱
+					<b>/</b>
+				</li>
+				<li class="c_list">女士包袋
+					<b>/</b>
+				</li>
+				<li class="c_list">男士包袋
+					<b>/</b>
+				</li>
+				<li class="c_list">钱包及小皮件
+					<b>/</b>
+				</li>
+				<li class="c_list">女鞋
+					<b>/</b>
+				</li>
+				<li class="c_list">男鞋
+					<b>/</b>
+				</li>
+				<li class="c_list">拖鞋</li>
+			</ul>
+			<p id="moreClothes">查看更多&nbsp;></p>
+			<section id="c_carousel" class="c">
+				<section id="c_leftButton" class="i_button"></section>
+				<section id="c_rightButton" class="i_button"></section>
+				<ul id="c_picBox">
+					<li class="c_bigPic">
+						<img src="img/i_clothes/i_clothes0.jpg" />
+					</li>
+					<li class="c_bigPic">
+						<img src="img/i_clothes/i_clothes1.jpg" />
+					</li>
+					<li class="c_bigPic">
+						<img src="img/i_clothes/i_clothes2.jpg" />
+					</li>
+					<li class="c_bigPic">
+						<img src="img/i_clothes/i_clothes0.jpg" />
+					</li>
+				</ul>
+				<ul id="c_picBtn">
+					<li class="c_picBtn" style="background: #B89A61;"></li>
+					<li class="c_picBtn"></li>
+					<li class="c_picBtn"></li>
+				</ul>
+			</section>
+			<ul id="c_goodsBox">
+				<li class="c_goods">
+					<div class="c_goodsPic">
+						<img src="img/i_clothes/i_clothesGoods0-0.png" />
+					</div>
+					<div class="c_goodsText">
+						<section class="c_text">
+							<span>年货节特卖</span>
+						</section>
+						<h4>经典100%山羊绒格纹围巾2.0</h4>
+						<p>
+							<span class="c_price1">¥149</span>
+							<span class="c_price2">¥299</span>
+						</p>
+					</div>
+				</li>
+				<li class="c_goods">
+					<div class="c_goodsPic">
+						<img src="img/i_clothes/i_clothesGoods1-0.png" />
+					</div>
+					<div class="c_goodsText">
+						<section class="c_text">
+							<span>年货节特卖</span>
+						</section>
+						<h4>短筒皮毛一体女士雪地靴</h4>
+						<p>
+							<span class="c_price1">¥149</span>
+							<span class="c_price2">¥299</span>
+						</p>
+					</div>
+				</li>
+				<li class="c_goods">
+					<div class="c_goodsPic">
+						<img src="img/i_clothes/i_clothesGoods2-0.png" />
+					</div>
+					<div class="c_goodsText">
+						<section class="c_text">
+							<span>年货节特卖</span>
+						</section>
+						<h4>男士头层牛皮户外工装鞋</h4>
+						<p>
+							<span class="c_price1">¥259</span>
+							<span class="c_price2">¥399</span>
+						</p>
+					</div>
+				</li>
+				<li class="c_goods">
+					<div class="c_goodsPic">
+						<img src="img/i_clothes/i_clothesGoods3-0.png" />
+					</div>
+					<div class="c_goodsText">
+						<section class="c_text">
+							<span style="opacity: 0;"></span>
+						</section>
+						<h4>20寸 磨砂PC膜拉链登机箱</h4>
+						<p>
+							<span class="c_price1">¥269</span>
+							<span class="c_price2"></span>
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	
+		<!--甄选家-->
+		<div id="selection" class="c">
+			<h3>甄选家</h3>
+			<span class="s_span">我们在寻找，对生活有态度的你</span>
+			<img id="s_pic1" src="img/i_selection/i_selection0.jpg" />
+			<img class="s_pic2" src="img/i_selection/i_selection1.jpg" />
+			<img class="s_pic2" src="img/i_selection/i_selection2.jpg" />
+		</div>
+		
+		<!--大家都在说-->
+		<div id="say" class="t">
+			<div id="sayC" class="c">
+				<h3>大家都在说</h3>
+				<span id="s_span">生活，没有统一标准</span>
+				<section id="say_leftButton" class="i_button"></section>
+				<section id="say_rightButton" class="i_button"></section>
+				<section class="say_goodsBox">
+					<ul class="say_goods"></ul>
+				</section>
+			</div>
+		</div>
+	
+		<footer></footer>
+		<script>
+			$('footer').load("commonHtml/footer.html")
+		</script>
+	</body>
+</html>

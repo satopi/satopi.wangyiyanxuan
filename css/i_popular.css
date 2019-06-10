@@ -1,0 +1,240 @@
+#popular{
+	height: 578px;
+	padding: 60px 0;
+	background: #f4f0ea;
+	position: absolute;
+	top: 2250px;
+}
+
+#popularC{
+	height: 510px;
+	position: relative;
+}
+
+#popular h3{
+	font-size: 20px;
+	position: absolute;
+	top: 0px;
+}
+
+#p_nav{
+	width: 250px;
+	height: 28px;
+	position: absolute;
+	top: 7px;
+	left: 170px;
+}
+
+#p_nav1{
+	color: #B4A078;
+	border-bottom: 2px solid #b4a078;
+}
+
+.p_btns{
+	font-size: 14px;
+	text-align: center;
+	color: black;
+	float: left;
+	margin-right: 50px;
+}
+
+#morePopular{
+	position: absolute;
+	right: 0;
+	top:7px;
+	font-size: 14px;
+}
+
+#p_goodsBox{
+	width: 1090px;
+	height: 530px;
+	position: absolute;
+	top: 40px;
+}
+
+#p_goodsBox2{
+	width: 390px;
+	height: 530px;
+	background: white;
+	position: relative;
+}
+
+#p_goodsBox3{
+	width: 700px;
+	height: 530px;
+	position: absolute;
+	top: 0px;
+	left: 390px;
+}
+
+#p_picBox1{
+	width: 390px;
+	height: 399px;
+}
+
+#p_goodsBox2 hr{
+	height: 0.1px;
+	color: #f4f4f4;
+	border: 0.5px solid #f4f4f4;;
+}
+
+.p_pic{
+	width: 318px;
+	height: 318px;
+	border: 1px solid white;
+	margin: 40px 35px;
+	position: absolute;
+}
+
+#p_textBox1{
+	width: 390px;
+	height: 91px;
+	background: white;
+	margin-top: 20px;
+}
+
+#p_text{
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#p_text span{
+	height: 20px;
+	background: #e36844;
+	color: white;
+	padding: 0 5px;
+	font-size: 13px;
+}
+
+.p_text{
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.p_text span{
+	height: 20px;
+	background: #e36844;
+	color: white;
+	padding: 0 5px;
+	font-size: 13px;
+}
+
+#p_textBox1 h4{
+	width: 370px;
+	height: 20px;
+	padding: 0 10px;
+	font-size: 18px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.p_price{
+	width: 390px;
+	height: 18px;
+	padding: 9px 0;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+
+.p_price1{
+	color: #d4282d;
+	font-size: 18px;
+}
+
+.p_price2{
+	color: #999;
+	font-size: 14px;
+	margin-left: 5px;
+	margin-top: 14px;
+	text-decoration:line-through;
+}
+
+#p_picBox1:hover{
+	transform: scale(1.1);
+	transition: all 3s;
+}
+
+.p_goodsBox4{
+	width: 223px;
+	height: 260px;
+	background: white;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	float: left;
+}
+
+.p_picBox2{
+	width: 223px;
+	height: 180px;
+}
+
+.p_picBox2 img{
+	width: 180px;
+	height: 180px;
+	overflow: hidden;
+	margin: 0 21.5px;
+	position: absolute;
+}
+
+.p_textBox2{
+	width: 223px;
+	height: 71.6px;
+	background: white;
+	margin-top: 0px;
+}
+
+.p_textBox2 h4{
+	width: 203px;
+	height: 20px;
+	padding: 0 10px;
+	font-size: 13px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.p_smallPrice{
+	width: 223px;
+	height: 14.6px;
+	padding: 3px 0;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+
+.p_price3{
+	color: #d4282d;
+	font-size: 13px;
+}
+
+.p_price4{
+	color: #999;
+	font-size: 12px;
+	margin-left: 5px;
+	margin-top: 14px;
+	text-decoration:line-through;
+}
+
+.p_goodsBox4 hr{
+	height: 0.1px;
+	color: #f4f4f4;
+	border: 0.5px solid #f4f4f4;;
+}
+
+.p_picBox2:hover img{
+	transform: scale(1.1);
+	transition: all 3s;
+}
+
+.p_btns:hover{
+	color: #B4A078;
+}
+
+#morePopular:hover{
+	color: #b4a078;
+}

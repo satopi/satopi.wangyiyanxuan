@@ -1,0 +1,182 @@
+#clothes{
+	width: 1100px;
+	height: 775px;
+	top: 830px;
+	overflow: hidden;
+	position: relative;
+	padding: 60px 0;
+}
+
+#clothes h3{
+	font-size: 20px;
+}
+
+#moreClothes{
+	position: absolute;
+	right: 50px;
+	top:68px;
+	font-size: 14px;
+}
+
+#c_nav{
+	width: 652px;
+	height: 19.2px;
+	position: absolute;
+	top: 68px;
+	left: 380px;
+}
+
+.c_list{
+	float: left;
+	font-size: 14px;
+	text-align: center;
+}
+
+.c_list b{
+	margin: 0 13px;
+}
+
+#c_carousel{
+	height: 310px;
+	margin-top: 20px;
+}
+
+
+#c_picBox{
+	width: 1090px;
+	height: 310px;
+	position: absolute;
+	z-index: 1;
+}
+
+.c_bigPic{
+	width: 1090px;
+	height: 310px;
+	position: absolute;
+	transition: 0.5s;
+	z-index: 7;
+}
+
+#c_picBtn{
+	display: block;
+	width: 1090px;
+	height: 36.4px;
+	margin-left: 520px;
+	position: absolute;
+	top: 380px;
+	z-index: 8;
+}
+
+.c_picBtn{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+	float: left;
+	margin: 0 8px;
+	margin-bottom: 10px;
+}
+
+#c_leftButton{
+	background-image: url(../img/header/icon.png);
+	background-position: 0 -2426px;
+	transform: scale(1.2);
+	z-index: 8;
+	position: absolute;
+	left: 10px;
+	top: 250px;
+}
+
+#c_rightButton{
+	background-image: url(../img/header/icon.png);
+	background-position: 0 -4367px;
+	transform: scale(1.2);
+	z-index: 8;
+	position: absolute;
+	right: -10px;
+	top: 255px;
+}
+
+#c_leftButton:hover{
+	background-position: 0 -2386px;
+}
+
+#c_rightButton:hover{
+	background-position: 0 -4327px;
+}
+
+#c_goodsBox{
+	width: 1100px;
+	height: 411px;
+	margin-top: 20px;
+}
+
+.c_goods{
+	width: 265px;
+	height: 361px;
+	float: left;
+	margin: 0 4px;
+}
+
+.c_goodsPic{
+	width: 265px;
+	height: 265px;
+	margin-bottom: 8px;
+	background: rgb(244, 244, 244);
+}
+
+.c_goodsText{
+	width: 265px;
+	height: 71.4px;
+}
+
+.c_text{
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.c_text span{
+	height: 20px;
+	background: #e36844;
+	color: white;
+	padding: 0 5px;
+	font-size: 13px;
+}
+
+.c_goodsText h4{
+	width: 245px;
+	height: 20px;
+	padding: 0 10px;
+	line-height: 20px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 100%;
+	margin: 0 auto;
+}
+
+.c_goodsText p{
+	width: 265px;
+	height: 14.6px;
+	padding: 9px 0;
+	line-height: 14.6px;
+	text-align: center;
+	font-size: 13px;
+	margin: 0 auto;
+}
+
+.c_price1{
+	color: #d4282d;
+}
+
+.c_price2{
+	color: rgb(153, 153, 153);
+	text-decoration: line-through;
+	font-size: 12px;
+}
+
+.c_goods:hover{
+	border: 1px solid #F0F0F0;
+	background: #f4f0ea;
+}

@@ -1,0 +1,114 @@
+#brand{
+	height: 63px;
+	margin-top: 10px;
+	position: relative;
+}
+
+#brand span{
+	position: absolute;
+	left: 110px;
+	top:6px;
+	font-size: 14px;
+}
+
+#brand h3{
+	font-size: 20px;
+}
+
+.brandBox{
+	width: 357px;
+	height: 320px;
+	position: absolute;
+	top: 40px;
+	overflow: hidden;
+}
+
+#b_box1{
+	background-image: url(../img/brand/brand0.jpg);
+}
+
+.b_p1{
+	color: #666;
+	font-size: 24px;
+	text-align: center;
+	padding: 10px 10px;
+	margin-top: 20px;
+	position: absolute;
+	left: 108px;
+	z-index: 2;
+	
+}
+
+.b_span2{
+	color: #666;
+	font-size: 14px;
+	padding-top: 20px;
+	border-top: 1px solid #b4a078;
+	text-align: center;
+	margin-left: 45px;
+	margin-top: 80px;
+}
+
+.b_p2{
+	color: #666;
+	font-size: 24px;
+	text-align: center;
+	padding: 10px 10px;
+	margin-top: 20px;
+	position: absolute;
+	left: 0px;
+	z-index: 2;
+	
+}
+
+.b_p3{
+	color: #666;
+	font-size: 14px;
+	padding-top: 20px;
+	border-top: 1px solid #b4a078;
+	position: absolute;
+	top: 0;
+	left: 10px;
+	margin-top: 80px;
+}
+
+#b_box1:hover .b_pic{
+	transform:scale(1.2);
+	transition: all 3s;
+}
+
+#b_box2{
+	background-image: url(../img/brand/brand1.png);
+	position: absolute;
+	left: 370px;
+}
+
+#b_box2:hover .b_pic{
+	transform:scale(1.2);
+	transition: all 3s;
+}
+
+#b_box3{
+	height: 155px;
+	background-image: url(../img/brand/brand2.png);
+	position: absolute;
+	left: 740px;
+}
+
+#b_box3:hover .b_pic{
+	transform:scale(1.2);
+	transition: all 3s;
+}
+
+#b_box4{
+	height: 155px;
+	background-image: url(../img/brand/brand3.jpg);
+	position: absolute;
+	left: 740px;
+	top: 205px;
+}
+
+#b_box4:hover .b_pic{
+	transform:scale(1.2);
+	transition: all 3s;
+}

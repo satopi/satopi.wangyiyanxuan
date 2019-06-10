@@ -1,0 +1,36 @@
+#market{
+	height: 790px;
+	overflow: hidden;
+	/*position: relative;*/
+}
+
+#marketC{
+	width: 1920px;
+	height: 790px;
+	background: aqua;
+}
+
+#marketNav{
+	width: 1920px;
+	height: 790px;
+}
+
+.mBtns{
+	width: 1920px;
+	height: 210px;
+	position: relative;
+}
+
+#m_picBox{
+	width: 1920px;
+	height: 210px;
+	position: absolute;
+	left: 210px;
+}
+
+#marketPic{
+	display: block;
+	height: 120px;
+	position: absolute;
+	left: 200px;
+}

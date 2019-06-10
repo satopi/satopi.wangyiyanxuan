@@ -1,0 +1,509 @@
+#detailsNav{
+	height: 694px;
+	border-top: 1px solid #F0F0F0;
+}
+
+#detailsC{
+	height: 644px;
+	background: white;
+}
+
+#d_raside{
+	float: right;
+	position: relative;
+	top: -1340px;
+	right: 0;
+}
+
+#d_index{
+	width: 1090px;
+	height: 14px;
+	padding: 20px 0;
+}
+
+#d_index span{
+	color: #999999;
+}
+
+#detailsBox{
+	width: 1090px;
+	height: 590px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+#detailsPicBox{
+	width: 524px;
+	height: 440px;
+}
+
+.detailsPic{
+	width: 428px;
+	height: 428px;
+	border: 1px solid #e8e8e8;
+	margin-right: 16px;
+	position: relative;
+	float: left;
+}
+
+/*放大镜*/
+#d_magnifier{
+	z-index: 5;
+	position: absolute;
+	top: 0;
+	left: 445px;
+	margin-right: 0;
+	overflow: hidden;
+	display: none;
+}
+
+#d_magBigPic{
+	width: 896px;
+	height: 896px;
+	position: absolute;
+}
+
+#d_square{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #b4a078;
+	opacity: 0.5;
+	display: none;
+}
+
+
+#detailsBtnBox{
+	width: 78px;
+	height: 440px;
+	float: right;
+}
+
+.detailsBtn{
+	width: 78px;
+	height: 78px;
+	margin-bottom: 10px;
+}
+
+#detailsTextBox{
+	width: 504px;
+	height: 589px;
+	padding-left: 62px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#d_textSpan{
+	width: 504px;
+	height: 30px;
+}
+
+#d_newSpan{
+	width: 29px;
+	height: 18px;
+	padding: 0 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #b4a078;
+	background: #b4a078;
+	color: white;
+	text-align: center;
+}
+
+#d_textTitle{
+	width: 504px;
+	height: 19px;
+	margin-bottom: 7px;
+}
+
+#d_textTitle span{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+#d_introducce{
+	width: 300px;
+	height: 19px;
+	font-size: 14px;
+	color: #999999;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+#d_intro{
+	width: 504px;
+	height: 262px;
+	padding-bottom: 13px;
+	border-bottom: 1px dotted #DEDEDE;
+	border-top: 1px dotted #DEDEDE;
+	background: #f5f3ef;
+}
+
+.d_introPriceBox{
+	width: 504px;
+	height: 50px;
+	position: relative;
+}
+
+#d_priceBox{
+	width: 148px;
+	height: 45px;
+	margin-bottom: 5px;
+}
+
+.d_priceTitle{
+	width: 55px;
+	height: 30px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 16px;
+	color: #666;
+	font-size: 13px;
+}
+
+.d_price{
+	float: left;
+	width: 82px;
+	height: 30px;
+	font-size: 18px;
+	margin-right: 1px;
+	color: #d7282d;
+	line-height: 30px;
+	margin-top: 10px;
+	font-weight: 700;
+}
+
+#d_superuser{
+	width: 238px;
+	height: 22px;
+	position: absolute;
+	top: 16px;
+	left: 148px;
+}
+
+#d_superIcon{
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin-right: 5px;
+	background-image: url(../img/details/d_icon.png);
+	background-position: 0 -3686px;
+}
+
+#d_superIcon span{
+	font-size: 13px;
+}
+
+#d_superuser a{
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+#d_superuser a:hover{
+	color: #b4a078;
+}
+
+.d_introDiscountBox{
+	width: 504px;
+	height: 32px;
+	padding-top: 4px;
+	position: relative;
+}
+
+.d_disTitle{
+	margin-top: 6px;
+	margin-left: 10px;
+}
+
+.d_introDiscountBox img{
+	transform: scale(0.8);
+	position: absolute;
+	left: 38px;
+	top: -2px;
+}
+
+.d_introDiscountBox a{
+	color: #D52B33;
+	position: absolute;
+	left: 290px;
+	top: 10px;
+}
+
+#p_disPic2{
+	left: 27px;
+}
+
+#p_disPic3{
+	left: 36px;
+}
+
+.d_mark{
+	float: left;
+	color: #666;
+	margin-top: 7px;
+}
+
+#d_sendBox{
+	border-bottom: 1px dashed #ccc;
+}
+
+#p_serPic{
+	transform: scale(0.7);
+	top: -8px;
+	left: 0;
+}
+
+.d_select{
+	width: 494px;
+	height: 67px;
+	margin-top: 10px;
+}
+
+.d_name{
+	float: left;
+	width: 54px;
+	height: 49.6px;
+	color: #666666;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 8px;
+}
+
+.d_selPic{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	padding: 1px 1px;
+	border: 2px solid #b4a078;
+	position: relative;
+}
+
+#d_selIcon{
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-image: url(../img/header/icon.png);
+	background-position: 0 -5328px;
+}
+
+#d_numBox{
+	width: 132px;
+	height: 30px;
+	border: 1px solid #ddd;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	margin-top: 17px;
+	position: relative;
+}
+
+#d_numBox button{
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
+
+.numChange{
+	width: 36px;
+	height: 30px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 18px;
+	color: #999999;
+	font-weight: 400;
+	position: absolute;
+	top: 0px;
+	background: white;
+}
+
+#numMin{
+	left: 0;
+}
+
+#numSum{
+	right: 0;
+}
+
+#d_numBox input{
+	width: 58px;
+	height: 30px;
+	background: 1;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: #999999;
+	border: none;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	outline: none;
+	margin-left: 36px;
+}
+
+#d_number{
+	position: absolute;
+	top: 430px;
+}
+
+#buttonBox{
+	width: 492px;
+	height: 50px;
+	position: absolute;
+	bottom: 20px;
+}
+
+.d_button{
+	width: 166px;
+	height: 48px;
+	border: 1px solid #b4a078;
+	outline: none;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 18px;
+}
+
+#d_buyButton{
+	background: #f5f3ef;
+	color: #b4a078;
+}
+
+#d_shopCarButton{
+	background: #b4a078;
+	color: white;
+}
+
+.d_collection{
+	width: 48px;
+	height: 47px;
+	float: right;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+	color: #999999;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: 400;
+	margin-right: 80px;
+}
+
+#d_collectIcon{
+	font-size: 25px;
+	font-weight: 900;
+}
+
+#d_topC{
+	width: 1090px;
+	height: 41px;
+	background: #F5F5F5;
+	border: 1px solid #e8e8e8;
+	position: relative;
+	margin:  0 auto;
+}
+
+.d_top{
+	width: 1090px;
+	height: 40px;
+	font-size: 16px;
+}
+
+.d_topBtns1{
+	border-top: 3px solid #b4a078;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    color: #b4a078;
+    float: left;
+    width: 123px;
+    height: 40px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.d_topBtns{
+	width: 124px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #e8e8e8;
+	float: left;
+}
+
+.d_topBtns span{
+	color: #b4a078;
+}
+
+#d_topNav{
+	background: white;
+	height: 43px;
+	border-bottom: 1px solid #f0f0f0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	/*display: none;*/
+}
+
+/*#d_topC2{
+	position: relative;
+}*/
+
+.d_addShopCar{
+	background: #b4a078;
+	color: white;
+	border: 1px solid #b4a078;
+	outline: none;
+	width: 118px;
+	height: 28px;
+	font-size: 16px;
+	float: right;
+	position: absolute;
+	top: 6px;
+	right: 150px;
+	display: none;
+}
+
+.d_picBox{
+	width: 1090px;
+	margin: 0 auto;
+	border: 1px solid #f0f0f0;
+	border-top: none;
+	display: none;
+}
+
+.d_pic{
+	margin:0 160px;
+}
+
+.d_pic1{
+	margin:0 80px;
+}
+
+#details_footer{
+	height: 250px;
+	position: absolute;
+	top: 3830px;
+}
+
+#d_details{
+	display: block;
+}
+
+#d_comment{
+	position: absolute;
+	top: 900px;
+	display: none;
+}
+
+#d_question{
+	position: absolute;
+	padding-top: 100px;
+	/*padding-bottom: -15px;*/
+	top: 900px;
+	display: none;
+}

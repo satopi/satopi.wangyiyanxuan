@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="commonCss/base.css" />
+		<link rel="stylesheet" href="commonCss/rightSide.css" />
+		<link rel="stylesheet" href="css/login.css" />
+		<link rel="stylesheet" href="commonCss/header.css" />
+		<link rel="stylesheet" href="commonCss/icon.css" />
+		<link rel="stylesheet" href="commonCss/iconfont.css" />
+		<link rel="stylesheet" href="commonCss/footer.css" />
+		<script type="text/javascript" src="commonJs/jquery.js" ></script>
+		<script type="text/javascript" src="js/register.js" ></script>
+		<script type="text/javascript" src="commonJs/login.js" ></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header></header>
+		<script>
+			$('header').load("commonHtml/header.html")
+		</script>
+		
+		<!--登录-->
+		<div id="login_bg" class="c">
+			<div class="login_box">
+				<section class="login_box1">
+					<span class="login_text" id="telLogin" style="border: none;">手机号注册</span>
+					<span class="register_text">邮箱注册</span>
+					<a href="login.html" style="text-decoration: none;"><span class="register_text">直接登录</span></a>
+					
+					<div class="login_input" id="registerIput1">
+						<span class="iconfont login_telIcon">&#xe641;</span>
+						<input type="text" placeholder="请输入手机号" class="login_telInput" id="loginTelInput"/>
+					</div>
+					<p class="tips">
+						<img src="img/login/login2.PNG" />
+						<span id="telTips">请输入正确的手机号</span>
+					</p>
+					
+					<div class="login_input" id="registerIput2">
+						<input type="text" placeholder="请输入短信验证码" class="login_telInput"/>
+						<section id="login_SMS">获取验证码</section>
+					</div>
+					<p class="tips">
+						<img src="img/login/login2.PNG" />
+						<span id="telTips">请输入正确的短信验证码</span>
+					</p>
+					
+					<section class="login_input" id="registerIput3">
+						<img src="img/login/login4.PNG" class="login_icon"/>
+						<input type="password" placeholder="请输入密码" class="login_telInput" id="loginPswInput"/>
+					</section>
+					<p class="tips">
+						<img src="img/login/login2.PNG" />
+						<span id="telTips">请输入正确的密码</span>
+					</p>
+					
+					<input type="button" class="login" id="registButton" value="注&nbsp;册"></input>
+				</section>
+				<section class="login_box2" id="registerBox">
+					<input id="check" type="checkbox" checked="checked"/>
+					<span id="registerText">我同意《服务条款》和《网易隐私政策》</span>
+				</section>
+			</div>
+		</div>
+		
+		<!--侧边栏-->
+		<div id="login_aside">
+			<aside></aside>
+		</div>
+		<script>
+			$('aside').load("commonHtml/rightSide.html")
+		</script>
+		
+		<!--脚部-->
+		<div id="login_footer" class="t">
+			<footer></footer>
+		</div>
+		<script>
+			$('footer').load("commonHtml/footer.html")
+		</script>
+	</body>
+</html>

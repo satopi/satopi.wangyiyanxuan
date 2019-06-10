@@ -1,0 +1,564 @@
+#intro_raside{
+	float: right;
+	position: relative;
+	top: -1330px;
+	right: 0;
+}
+
+#intro_footer{
+	height: 250px;
+	position: absolute;
+	top: 3321px;
+	z-index: -1;
+}
+
+#introNav{
+	height: 450px;
+}
+
+#introC{
+	height: 450px;
+}
+
+#intro_show{
+	width: 1090px;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+}
+
+#intro_picBox{
+	width: 6540px;
+	height: 450px;
+	position: absolute;
+}
+
+.intro_bigPic{
+	float: left;
+	width: 1090px;
+	height: 450px;
+}
+
+#intro_btnBox{
+	width: 1090px;
+	height: 27.6px;
+	position: absolute;
+	bottom: 10px;
+	left: 480px;
+	z-index: 8;
+}
+
+.intro_picBtn{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+	float: left;
+	margin: 0 8px;
+	margin-bottom: 10px;
+}
+
+.intro_button{
+	width: 50px;
+	height: 50px;
+	z-index: 9;
+}
+
+#intro_leftButton{
+	background-image: url(../img/header/icon.png);
+	background-position: 0 -2426px;
+	transform: scale(1.2);
+	position: absolute;
+	left: 23px;
+	top: 192px;
+	
+}
+
+#intro_rightButton{
+	background-image: url(../img/header/icon.png);
+	background-position: 0 -4367px;
+	transform: scale(1.2);
+	position: absolute;
+	right: 0;
+	top: 200px;
+}
+
+#intro_leftButton:hover{
+	background-position: 0 -2386px;
+}
+
+#intro_rightButton:hover{
+	background-position: 0 -4327px;
+}
+
+#intro_index{
+	width: 1090px;
+	height: 501px;
+	position: relative;
+}
+
+.intro_indexBox{
+	width: 1090px;
+	height: 461.8px;
+	margin-top: 40px;
+}
+
+.intro_indexTitle{
+	width: 1090px;
+	height: 28px;
+	padding-bottom: 20px;
+}
+
+.intro_indexTitle h2{
+	font-size: 28px;
+	float: left;
+	font-weight: 400;
+	color: #333333;
+}
+
+.intro_indexGoodsBox{
+	width: 535px;
+	height: 384.2px;
+	margin-right: 20px;
+	color: #333333;
+}
+
+.intro_indexPicBox{
+	width: 535px;
+	height: 315px;
+	overflow: hidden;
+}
+
+.intro_indexPicBox:hover img{
+	transform: scale(1.2);
+	transition: all 3s;
+}
+
+.intro_indexGoodsBox h3{
+	width: 535px;
+	height: 29.6px;
+	padding-top: 14px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333;
+}
+
+.intro_indexGoodsBox p{
+	width: 535px;
+	height: 23.6px;
+	line-height: 26px;
+    font-size: 14px;
+    color: #999;
+}
+
+#intro_indexGBox{
+	position: absolute;
+	left: 555px;
+	top: 48px;
+}
+
+#intro_division{
+	width: 1090px;
+	height: 532px;
+}
+
+.intro_divisionBox{
+	width: 1090px;
+	height: 456px;
+	margin-top: 76px;
+}
+
+.intro_divisionTitle{
+	widows: 1090px;
+	height: 28px;
+}
+
+.intro_divisionTitle h2{
+	width: 140px;
+	height: 28px;
+	float: left;
+    font-size: 28px;
+    color: #333;
+    font-weight: 400;
+}
+
+.intro_divisionTitle a{
+	float: right;
+    height: 28px;
+    padding-top: 14px;
+    font-size: 14px;
+    color: #999;
+    text-decoration: none;
+}
+
+.intro_divisionGoodsBigBox{
+	width: 1106px;
+	height: 410px;
+	margin-top: 18px;
+	margin-right: 16px;
+}
+
+.intro_divisionGoodsBox{
+	float: left;
+	width: 258px;
+	height: 408px;
+	margin-right: 16px;
+	border: 1px solid #eaeaea;
+}
+
+.intro_divisionPicBox{
+	width: 258px;
+	height: 260px;
+	overflow: hidden;
+}
+
+.intro_divisionTextBox{
+	width: 222px;
+	height: 120px;
+	padding: 0 18px;
+	z-index: 3;
+	position: relative;
+}
+
+.intro_divisionHeadBox{
+	position: absolute;
+    top: -20px;
+    width: 60px;
+    height: 60px;
+    padding: 8px;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: #fff;
+}
+
+.intro_divisionHeadBox img{
+	margin-left: 8px;
+	border-radius: 50%;
+}
+
+.intro_divisionName{
+	color: #333333;
+	padding-left: 61px;
+	padding-top: 12px;
+	font-size: 14px;
+	margin-left: 20px;
+}
+
+.intro_divisionTextTitle{
+	margin-top: 10px;
+	margin-bottom: 6px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.intro_divisionTextBox p{
+	height: 40px;
+    line-height: 20px;
+    color: #999;
+}
+
+.intro_divisionGoodsBox:hover{
+	box-shadow: 0 0 16px 1px rgba(0,0,0,.1);
+}
+
+
+#intro_dingLei{
+	width: 1090px;
+	height: 492px;
+}
+
+.intro_dingLeiBox{
+	width: 1090px;
+	height: 336px;
+	margin-bottom: 80px;
+	margin-top: 76px;
+	position: relative;
+}
+
+#intro_dingH2{
+	width: 196px;
+}
+
+.intro_dingLeiBigBox{
+	width: 1090px;
+	height: 288px;
+	margin-top: 20px;
+}
+
+.intro_dingLeiBg{
+	width: 802px;
+	height: 220px;
+	background: #f5f5f5;
+	position: absolute;
+	top: 48px;
+	left: 288px;
+}
+
+.intro_dingLeiGoodsBigBox{
+	height: 258px;
+	position: absolute;
+	top: 78px;
+	left: 328px;
+}
+
+.intro_dingLeiGoodsBox{
+	width: 220px;
+	height: 258px;
+	margin: 0 10px;
+	float: left;
+}
+
+.intro_dingLeiPicBox{
+	width: 220px;
+	height: 220px;
+	background: white;
+	overflow: hidden;
+	box-shadow: 0 0 16px 1px rgba(0,0,0,.1);
+}
+
+.intro_dingLeiGoodsBox p{
+	width: 220px;
+	height: 13.6px;
+	padding: 20px 0 4px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+
+.intro_dingLeiGoodsBox p:hover{
+	color: #B4A078;
+}
+
+.intro_dingLeiPicBox img:hover{
+	transform: scale(1.2);
+	transition: all 3s;
+}
+
+.introBg{
+	height: 976px;
+	background: #f5f5f5;
+	position: absolute;
+	top: 2330px;
+}
+
+#introBgC{
+	width: 1090px;
+	height: 876px;
+	position: relative;
+}
+
+#intro_public{
+	height: 448px;
+}
+
+#intro_publicTitle{
+	padding-top: 80px;
+	padding-bottom: 20px;
+	height: 28px;
+	width: 1090px;
+}
+
+#intro_publicH2{
+	float: left;
+    font-size: 28px;
+    color: #333;
+    line-height: 1;
+    font-weight: 400;
+}
+
+#intro_publicGoodsBox{
+	height: 360px;
+	width: 1090px;
+	background: white;
+}
+
+.intro_publicGoods{
+    float: left;
+    width: 350px;
+    height: 180px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.intro_publicPicBox{
+	width: 180px;
+	height: 180px;
+	overflow: hidden;
+}
+
+.intro_publicPicBox:hover img{
+	transform: scale(1.2);
+	transition: all 3s;
+}
+
+.intro_publicTextBox{
+	width: 160px;
+    padding-right: 10px;
+    margin: 46px 0 0 190px;
+    position: absolute;
+    top: 0;
+}
+
+.intro_publicTextBox h4{
+	font-size: 16px;
+    line-height: 26px;
+    color: #333;
+    overflow: hidden;
+    font-weight: 400;
+}
+
+.intro_publicTextBox h4:hover{
+	color: #B4A078;
+}
+
+.intro_publicTextBox p{
+	padding-top: 12px;
+    font-size: 14px;
+    color: #999;
+}
+
+.intro_publicTextBox::after{
+	content: '';
+    position: absolute;
+    right: -10px;
+    top: 2px;
+    width: 10px;
+    height: 80px;
+    border-right: 1px solid #eaeaea;
+}
+
+#intro_special{
+	width: 1090px;
+	height: 388px;
+	position: absolute;
+	top: 488px;
+}
+
+#intro_specialGoodsBox{
+	width: 1090px;
+	height: 260px;
+}
+
+.intro_specialGoods{
+	width: 535px;
+	height: 260px;
+	float: left;
+	position: relative;
+}
+
+.intro_specialPicBox{
+	width: 535px;
+	height: 260px;
+	overflow: hidden;
+}
+
+.intro_specialPicBox:hover img{
+	transform: scale(1.1);
+	transition: all 3s;
+}
+
+.intro_specialTextBox{
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
+
+.intro_specialTextBox h3{
+	font-size: 24px;
+    color: #333;
+    font-weight: 400;
+    margin-top: 77px;
+}
+
+.intro_specialTextBox p{
+	padding: 16px 0 30px;
+	color: #666;
+    font-size: 18px;
+}
+
+#introBg{
+	background: white;
+	height: 801px;
+	top: 3300px;
+}
+
+#introBgC2{
+	height: 801px;
+}
+
+#intro_spaceBox{
+	width: 1090px;
+	height: 673px;
+}
+
+#intro_spaceBtnBox{
+	width: 1090px;
+	height: 72px;
+	color: #666;
+    line-height: 70px;
+    text-align: center;
+    border-left: 1px solid #eaeaea;
+}
+
+.intro_spaceBtnBg{
+	width: 544px;
+	height: 69.6px;
+	float: left;
+    border: 1px solid #eaeaea;
+    border-left: none;
+    font-size: 18px;
+}
+
+.intro_spaceBtn{
+	width: 545px;
+	height: 71.6px;
+	color: #333;
+}
+
+#intro_spaceBigBox{
+	position: relative;
+    border: 1px solid #eaeaea;
+    border-bottom: none;
+    border-top: none;
+    padding: 40px 100px 40px 50px;
+    height: 601px;
+}
+
+#intro_spaceTextBox{
+	margin-bottom: 30px;
+    height: 40px;
+    text-align: left;
+}
+
+#intro_icon{
+	background-image: url(../img/introduction/intro_icon.png);
+	background-repeat: no-repeat;
+	float: left;
+    margin-right: 25px;
+    width: 20px;
+    height: 40px;
+}
+
+#intro_spaceText{
+	margin-left: 45px;
+    height: 40px;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+}
+
+#intro_spacePicBox{
+	margin-top: 30px;
+	position: relative;
+}
+
+#hotel{
+	border-bottom: none;
+}
+
+#apartment{
+	color: #666;
+	background: #f5f5f5;
+}

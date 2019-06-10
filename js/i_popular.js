@@ -1,0 +1,37 @@
+$(function(){
+	$('#p_nav2').click(function(){
+		$('#p_picBox1 img').attr('src','img/i_popular/i_popular0-1.png')
+		$('#p_textBox1 h4').text('10卷/提 谷风一木 小卷纸')
+		$('#p_text span').text('囤货专场')
+		$('.p_price1').text('¥25.9')
+		$('.p_price2').text('¥27.9')
+		$('#p_nav2').css({'border-bottom':'2px solid #b4a078','color':'#b4a078'})
+		$('#p_nav1').css({'border':'none','color':'black'})
+		$.each(arr2, function(index,data){
+			console.log($('.p_text span').eq(index))
+			$('.p_picBox2 img').eq(index).attr('src',data.src)			
+			$('.p_text span').eq(index).text(data.text1)			
+			$('.p_textBox2 h4').eq(index).text(data.title)			
+			$('.p_price3').eq(index).text(data.price1)
+			$('.p_price4').eq(index).text(data.price2)			
+		})
+	})
+	
+	$('#p_nav1').click(function(){
+		$('#p_picBox1 img').attr('src','img/i_popular/i_popular0-0.png')
+		$('#p_textBox1 h4').text('升级款95%白鹅绒秋冬加厚羽绒被')
+		$('#p_text span').text('三石福利价')
+		$('.p_price1').text('¥896')
+		$('.p_price2').text('¥1149')
+		$('#p_nav1').css({'border-bottom':'2px solid #b4a078','color':'#b4a078'})
+		$('#p_nav2').css({'border':'none','color':'black'})
+		$.each(arr1, function(index1,data1){
+			console.log($('.p_text span').eq(index1))
+			$('.p_picBox2 img').eq(index1).attr('src',data1.src)			
+			$('.p_text span').eq(index1).text(data1.text1)			
+			$('.p_textBox2 h4').eq(index1).text(data1.title)			
+			$('.p_price3').eq(index1).text(data1.price1)
+			$('.p_price4').eq(index1).text(data1.price2)			
+		})
+	})
+})

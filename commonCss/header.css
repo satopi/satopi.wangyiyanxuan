@@ -1,0 +1,356 @@
+#topNav{
+	background: #333;
+}
+
+#topC{
+	height: 36px;
+	position: relative;
+}
+
+#lastNav{
+	height: 204px;
+	z-index: 2;
+	position: relative;
+}
+
+#centerC{
+	height: 150px;
+	position: relative;
+}
+
+#lastC{
+	height: 30px;
+	position: relative;
+}
+
+#left{
+	height: 36px;
+	width: 402.75px;
+}
+
+.btns{
+	line-height: 36px;
+	margin-right: 15px;
+	color: #ccc;
+}
+
+.btns:hover{
+	color: white;
+}
+
+#downBox{
+	width: 80px;
+	height: 120px;
+	background: white;
+	z-index: 1;
+	display: none;
+	position: absolute;
+	top: 23px;
+	right: 147px;
+	border: 1px solid #f0f0f0;
+}
+
+#dropDown{
+	width: 70px;
+	height: 120px;
+	margin-left: 6px;
+	margin-top: 8px;
+}
+
+.downBtns{
+	color: #ccc;
+	font-size: 12px;
+	padding: 11px 10px;
+	text-align: center;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+#h_icon{
+	position: absolute;
+	top: -19px;
+	left: 25px;
+	background-image: url(../img/header/icon.png);
+	background-position: 0 -1156px;
+	height: 30px;
+    width: 23px;
+    z-index: 4;
+}
+
+#up{
+	display: block;
+	position: absolute;
+	top: 2px;
+	right: 160px;
+}
+#down{
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 157px;
+	opacity: 0;
+}
+
+#drop:hover #downBox{
+	z-index: 3;
+	display: block;
+}
+
+#drop:hover #up{
+	opacity: 0;
+}
+
+#drop:hover #down{
+	opacity: 1;
+}
+
+.downBtns:hover{
+	color: #b4a078;
+}
+
+#right{
+	height: 36px;
+	width: 486.14px;
+	position: relative;
+	margin-top: 13px;
+}
+
+#right .btns{
+	margin-right: 25px;
+	line-height: 1;
+	border-right: 1px solid #ccc;
+	margin-right: 0;
+	padding: 0 10px;
+}
+
+#h_01{
+	display: block;
+	position: absolute;
+	left: 345px;
+}
+
+#searchBox{
+	width: 272px;
+	height: 22px;
+	margin-top: 75px;	
+	position: absolute;
+	left: 745px;	
+}
+
+#searchText{
+	width: 250px;
+	height: 19px;
+	padding: 1px 1px;
+	border: none;
+	border-bottom: 1px solid #b4a078;
+	font-size: 14px;
+	outline: none;
+}
+input::-webkit-input-placeholder{
+		color: #999;
+		font-size: 12px;
+	}
+	
+#searchPic{
+	font-size: 16px; 
+	color: #b4a078;
+}
+
+#shopCar{
+	font-size: 20px; 
+	color: #b4a078;
+	position: absolute;
+	top: 75px;
+	right: 35px;
+}
+
+.num{
+	width: 18px;
+	height: 18px;
+	border-radius: 50% 50%;
+	background: crimson;
+	text-align: center;
+	color: white;
+	line-height: 18px;
+	font-size: 10px;
+	position: absolute;
+	top: 67px;
+	right: 25px;
+}
+
+.btns2{
+	line-height: 30px;
+	padding: 0 25px;
+	padding-bottom: 6px;
+	font-size: 14px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+#navIcon{
+	position: absolute;
+	top: 37px;
+	left: 105px;
+	background-image: url(../img/header/icon.png);
+	background-position: 0 -1156px;
+	height: 26px;
+    width: 27px;
+	opacity: 0;
+}
+
+.btns2:hover #navIcon{
+	opacity: 1;
+	z-index: 111;
+	transition: all 0.2s;
+}
+
+#secondBox{
+	width: 745px;
+	background: white;
+	position: absolute;
+	top: 55px;
+	left: 0px;
+	display: none;
+	transition: all .2s;
+}
+
+.nav1{
+	width: 140px;
+	float: left;
+	padding: 20px 23px;
+	padding-bottom: 30px;
+}
+
+.navTitle{
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color: black;
+}
+
+.navPic{
+	width: 50px;
+	height: 50px;
+}
+
+.btns3{
+	padding: 2px 10px;
+	text-align: left;
+	font-size: 12px;
+	color: black;
+	font-weight: normal;
+}
+
+.btns2:hover #secondBox{
+	display: block;
+	z-index: 110;
+	border: 1px solid #f0f0f0;	
+}
+
+.btns2:hover{
+	padding-bottom: 0;
+	color: #b4a078;
+	border-bottom: 2px solid #b4a078;
+}
+
+/*吸顶*/
+#topNav2{
+	height: 60px;
+	background: white;
+	position: fixed;
+	top: 0px;
+	z-index: 9999;
+	display: none;
+	border: 1px solid #f0f0f0;	
+}
+
+#topC2{
+	height: 60px;
+}
+
+#topC2 img{
+	float: left;
+	transform: scale(0.8);
+}
+
+.lastC3{
+	margin-left: 10px;
+}
+
+.lastC2{
+	padding: 0 15px;
+	padding-top: 15px;
+}
+
+#navIcon1{
+	position: absolute;
+	top: 37px;
+	left: 223px;
+	background-image: url(../img/header/icon.png);
+	background-position: 0 -1156px;
+	height: 26px;
+    width: 27px;
+	opacity: 0;
+}
+
+.btns2:hover #navIcon1{
+	opacity: 1;
+	z-index: 111;
+	transition: all 0.2s;
+}
+
+#secondBox{
+	width: 745px;
+	background: white;
+	position: absolute;
+	top: 55px;
+	left: 0px;
+	display: none;
+	transition: all .2s;
+}
+
+.navPic2{
+	width: 50px;
+	height: 50px;
+	margin-left: -50px;
+	margin-top: 5px;
+}
+
+.btns3 span{
+	display: block;
+	padding-top: 10px;
+}
+
+.navPic2+span{
+	padding-top: 15px;
+}
+
+#searchPic1{
+	font-size: 25px; 
+	color: #b4a078;
+	margin-left: 20px;
+	position: absolute;
+	top: 15px;
+}
+
+#shopCar1{
+	font-size: 22px; 
+	color: #b4a078;
+	position: absolute;
+	top: 15px;
+	right: 320px;
+}
+
+#num1{
+	top: 6px;
+	right: 310px;
+}
+
+#my{
+	font-size: 25px; 
+	color: #b4a078;
+	position: absolute;
+	top: 15px;
+	right: 370px;
+}

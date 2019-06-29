@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网易严选居家生活篇 - 居家爆品，年中荟萃、清凉一夏、设计点亮，品质当道、经典北欧风，打造原木家、颜值即正义、甄选品质，睡眠美学、陷进柔软，多样选择、安心托护，美梦时刻、装点美家，生活美学、装点家的格调、趣意点缀，家中有格、舒适经典，幸福宅家、天然选材，安心酣睡、人体工学设计，健康办公、实用至上，讲究质感、一盏灯，温暖一个家、优质装点，柔软家居、收纳神器大集结、找回书写的力量、居家晾晒必备好物、亲肤柔棉，安心品质、慵懒休闲时光，轻松惬意生活、专业家庭医用好物、一口好锅，炖煮生活一日三餐、下厨省力好帮手、传统工艺 源自中国刀城、餐桌上的舞蹈、精工生产制作，匠人手艺、严选精巧器具，轻松冲调、用心选料，让爱宠健康成长、贴心设计，照顾爱宠舒适生活</title>
+		<link rel="stylesheet" href="../commonCss/base.css" />
+		<link rel="stylesheet" href="../commonCss/rightSide.css" />
+		<link rel="stylesheet" href="../commonCss/leftSide.css" />
+		<link rel="stylesheet" href="../css/productList.css" />
+		<link rel="stylesheet" href="../commonCss/header.css" />
+		<link rel="stylesheet" href="../commonCss/icon.css" />
+		<link rel="stylesheet" href="../commonCss/iconfont.css" />
+		<link rel="stylesheet" href="../commonCss/footer.css" />
+		<link rel="shortcut icon" href="../img/favicon.ico?r=gold" type="image/x-icon">
+		<script type="text/javascript" src="../commonJs/jquery.js" ></script>
+		<script type="text/javascript" src="../js/pro_aside.js" ></script>
+		<script type="text/javascript" src="../js/productListArr.js" ></script>
+		<script type="text/javascript" src="../js/productList.js" ></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header></header>
+		<script>
+			$('header').load("../commonHtml/header.html")
+		</script>
+		
+		<!--商品列表-->
+		<div id="productNav" class="t">
+			<div id="productC" class="c">
+				<section id="productIndex">
+					<span id="pro_index1"><a href="../index.html">首页</a href="#"></span>
+					<span id="pro_index2">&nbsp;>&nbsp;居家</span>
+				</section>
+				<section class="pro_kind">
+					<span class="pro_text pro_text1">分类：</span>
+					<ul class="pro_kindBox">
+						<li class="pro_text pro_text2">全部</li>
+						<li class="pro_text">
+							<a href="html/productList.html">床品件套</a>
+						</li>
+						<li class="pro_text"><a href="">被枕</a></li>
+						<li class="pro_text"><a href="">家具</a></li>
+						<li class="pro_text"><a href="">灯具</a></li>
+						<li class="pro_text"><a href="">收纳</a></li>
+						<li class="pro_text"><a href="">布艺软装</a></li>
+						<li class="pro_text"><a href="">家饰</a></li>
+						<li class="pro_text"><a href="">旅行用品</a></li>
+						<li class="pro_text"><a href="">晾晒除味</a></li>
+						<li class="pro_text"><a href="">家庭医疗</a></li>
+						<li class="pro_text"><a href="">宠物</a></li>
+					</ul>
+				</section>
+				<section class="pro_kind">
+					<span class="pro_text pro_text1">配送地区：</span>
+					<ul class="pro_kindBox">
+						<li class="pro_text pro_text2">全部</li>
+						<li class="pro_text"><a href="">香港</a></li>
+						<li class="pro_text"><a href="">澳门</a></li>
+						<li class="pro_text"><a href="">台湾</a></li>
+						<li class="pro_text"><a href="">日韩</a></li>
+						<li class="pro_text"><a href="">亚洲</a></li>
+						<li class="pro_text"><a href="">欧洲</a></li>
+						<li class="pro_text"><a href="">美洲</a></li>
+					</ul>
+				</section>
+				<section class="pro_kind">
+					<span class="pro_text pro_text1">排序：</span>
+					<ul class="pro_kindBox">
+						<li class="pro_text pro_text2">默认</li>
+						<li class="pro_text"><a href="">价格</a>
+							<span class="pro_icon" id="pro_upIcon"></span>
+							<span class="pro_icon" id="pro_downIcon"></span>
+						</li>
+						<li class="pro_text"><a href="">上架时间</a></li>
+					</ul>
+				</section>
+			
+				<section id="pro_titleBox">
+					<span id="pro_bigTitle">床品件套</span>
+					<p>甄选品质，睡眠美学</p>
+				</section>
+				<ul id="pro_goodsBigBox"></ul>
+			</div>
+		</div>
+		
+		<!--侧边栏-->
+		<div id="pro_laside">
+			<aside id="leftNav"></aside>
+		</div>
+		<script>
+			$('#leftNav').load("../commonHtml/leftSide.html");	
+		</script>
+		<div id="pro_raside">
+			<aside id="rightNav"></aside>
+		</div>
+		<script>
+			$('#rightNav').load("../commonHtml/rightSide.html")
+		</script>
+			
+		<!--脚部-->
+		<div id="pro_footer" class="t">
+			<footer></footer>
+		</div>
+		<script>
+			$('footer').load("../commonHtml/footer.html")
+		</script>
+	</body>
+</html>

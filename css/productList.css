@@ -23,6 +23,10 @@
 	background: #F5F5F5;
 }
 
+#pro_index1>a:hover{
+	color: black;
+}
+
 #pro_index2{
 	color: #999;
 }
@@ -42,6 +46,12 @@
 	float: left;
 	padding: 0 10px;
 	margin-bottom: 10px;
+}
+.pro_text>a{
+	text-decoration: none;
+}
+.pro_text>a:hover{
+	color: #B4A078;
 }
 
 .pro_text1{

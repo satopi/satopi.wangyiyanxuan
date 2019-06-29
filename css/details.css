@@ -20,6 +20,9 @@
 	height: 14px;
 	padding: 20px 0;
 }
+#d_index>a:hover{
+	color: black;
+}
 
 #d_index span{
 	color: #999999;
@@ -79,6 +82,7 @@
 	width: 78px;
 	height: 440px;
 	float: right;
+	cursor: pointer;
 }
 
 .detailsBtn{
@@ -235,6 +239,7 @@
 
 #p_disPic2{
 	left: 27px;
+	cursor: pointer;
 }
 
 #p_disPic3{
@@ -282,6 +287,7 @@
 	padding: 1px 1px;
 	border: 2px solid #b4a078;
 	position: relative;
+	cursor: pointer;
 }
 
 #d_selIcon{
@@ -322,6 +328,7 @@
 	position: absolute;
 	top: 0px;
 	background: white;
+	cursor: pointer;
 }
 
 #numMin{
@@ -373,11 +380,13 @@
 #d_buyButton{
 	background: #f5f3ef;
 	color: #b4a078;
+	cursor: pointer;
 }
 
 #d_shopCarButton{
 	background: #b4a078;
 	color: white;
+	cursor: pointer;
 }
 
 .d_collection{
@@ -391,11 +400,16 @@
 	font-size: 14px;
 	font-weight: 400;
 	margin-right: 80px;
+	cursor: pointer;
 }
 
 #d_collectIcon{
 	font-size: 25px;
 	font-weight: 900;
+}
+.d_collection:hover{
+	color: #B4A078;
+	border-color: #B4A078;
 }
 
 #d_topC{
@@ -411,6 +425,9 @@
 	width: 1090px;
 	height: 40px;
 	font-size: 16px;
+}
+.d_tab{
+	cursor: pointer;
 }
 
 .d_topBtns1{
@@ -466,6 +483,7 @@
 	top: 6px;
 	right: 150px;
 	display: none;
+	cursor: pointer;
 }
 
 .d_picBox{

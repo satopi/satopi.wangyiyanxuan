@@ -36,7 +36,7 @@
 }
 
 .say_goods{
-	width: 3300px;
+	width: 3800px;
 	height: 492px;
 	position: absolute;
 }
@@ -119,6 +119,7 @@
 	border: 1px solid #f4f4f4;
 	background: white;
 	overflow: hidden;
+	cursor: pointer;
 }
 
 .say_Box:hover .say_pic{
@@ -133,6 +134,7 @@
 	position: absolute;
 	left: 10px;
 	top: 300px;
+	cursor: pointer;
 }
 
 #say_rightButton{
@@ -142,6 +144,7 @@
 	position: absolute;
 	right: -15px;
 	top: 305px;
+	cursor: pointer;
 }
 
 #say_leftButton:hover{

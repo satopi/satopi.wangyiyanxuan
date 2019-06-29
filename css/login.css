@@ -36,6 +36,9 @@
 	background: #F5F3EF;
 	overflow: hidden;
 }
+.login_box2>img{
+	cursor: pointer;
+}
 
 .login_box{
 	width: 420px;
@@ -60,9 +63,16 @@
 	text-align: left;
 	border-right: 1px solid #f0f0f0;
 }
+.t1{
+	cursor: pointer;
+}
 
 #emailLogin{
 	float: right;
+	cursor: pointer;
+}
+#emailLogin:hover{
+	color: #B4A078;
 }
 
 .usePsd{
@@ -73,6 +83,11 @@
 	float: right;
 	color: #666;
 	margin-top: 10px;
+}
+.usePsd:hover{
+	color: #B4A078;
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 .login_input{
@@ -126,6 +141,7 @@
 
 #login_SMS:hover{
 	color: #B4A078;
+	cursor: pointer;
 }
 
 .login{
@@ -143,6 +159,7 @@
 
 #loginButton{
 	margin-top: 30px;
+	cursor: pointer;
 }
 
 #login_pic{
@@ -157,6 +174,14 @@
 	text-align: center;
 	float: right;
 	margin-top: 27px;
+}
+.login_text2>a:hover{
+	color: crimson!important;
+	text-decoration: underline!important;
+}
+.login_text2>span:hover{
+	cursor: pointer;
+	color: #B4A078;
 }
 
 .tips{
@@ -198,6 +223,10 @@
 	float: right;
 	margin-right: 8px;
 	margin-top: 12px;
+	cursor: pointer;
+}
+.register_text:hover{
+	color: #B4A078;
 }
 
 #registerIput1{
@@ -214,6 +243,7 @@
 
 #registButton{
 	margin-top: 10px;
+	cursor: pointer;
 }
 
 #registerBox{

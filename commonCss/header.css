@@ -27,14 +27,34 @@
 	height: 36px;
 	width: 402.75px;
 }
+#left>.btns>span{
+	position: relative;
+    top: -12px;
+}
+#left>.btns>a>span{
+	width: 200px;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-decoration: underline;
+}
+#left>.btns>a>span:hover{
+	color: white;
+	text-decoration: none;
+}
 
 .btns{
 	line-height: 36px;
 	margin-right: 15px;
 	color: #ccc;
 }
+.btns>span>a{
+	text-decoration: none;
+	color: #ccc;
+}
 
-.btns:hover{
+.btns:hover,.btns>span>a:hover{
 	color: white;
 }
 
@@ -142,7 +162,7 @@
 	padding: 1px 1px;
 	border: none;
 	border-bottom: 1px solid #b4a078;
-	font-size: 14px;
+	font-size: 18px;
 	outline: none;
 }
 input::-webkit-input-placeholder{
@@ -153,6 +173,7 @@ input::-webkit-input-placeholder{
 #searchPic{
 	font-size: 16px; 
 	color: #b4a078;
+	cursor: pointer;
 }
 
 #shopCar{
@@ -161,6 +182,7 @@ input::-webkit-input-placeholder{
 	position: absolute;
 	top: 75px;
 	right: 35px;
+	cursor: pointer;
 }
 
 .num{
@@ -185,17 +207,30 @@ input::-webkit-input-placeholder{
 	text-align: center;
 	color: black;
 	font-weight: bold;
+	cursor: pointer;
 }
 
-#navIcon{
+.navIcon{
 	position: absolute;
 	top: 37px;
-	left: 105px;
+	
 	background-image: url(../img/header/icon.png);
 	background-position: 0 -1156px;
 	height: 26px;
     width: 27px;
 	opacity: 0;
+}
+.bedIcon{
+	left: 105px;
+}
+.shoes{
+	left: 195px;
+}
+.fashion{
+	left: 288px;
+}
+.spIcon{
+	left: 840px;
 }
 
 .btns2:hover #navIcon{
@@ -205,17 +240,130 @@ input::-webkit-input-placeholder{
 }
 
 #secondBox{
-	width: 745px;
+	/*width: 745px;*/
 	background: white;
 	position: absolute;
-	top: 55px;
-	left: 0px;
+	z-index: 8;
+	/*top: 55px;*/
+	/*left: 0px;*/
 	display: none;
 	transition: all .2s;
 }
+.bed{
+	top: 54px;
+	left: 0;
+}
+.fashion1{
+	top: 54px;
+	left: 20px;
+}
+
+.bili{
+	top: 54px;
+	left: 40px;	
+}
+.wash{
+	top: 54px;
+	left: 80px;
+}
+.eat{
+	top: 54px;
+	left: 120px;
+}
+.kitchen{
+	top: 54px;
+	left: 160px;
+}
+.child{
+	top: 54px;
+	left: 235px;
+}
+.pe{
+	top: 54px;
+	left: 340px;
+}
+.special{
+	top: 54px;
+	left: 429px;
+}
+
+/*吸顶*/
+.tNav2{
+	top: 61px;
+	left: 10px;
+}
+.tNav3{
+	top: 61px;
+	left: 60px;
+}
+.tNav4{
+	top: 61px;
+	left: 130px;
+}
+.tNav5{
+	top: 61px;
+	left: 200px;
+}
+.tNav6{
+	top: 61px;
+	left: 270px;
+}
+.tNav7{
+	top: 61px;
+	left: 330px;
+}
+.tNav8{
+	top: 61px;
+	left: 330px;
+}
+.tNav9{
+	top: 61px;
+	left: 380px;
+}
+
+#navIcon1{
+	position: absolute;
+	top: 43px;
+	background-image: url(../img/header/icon.png);
+	background-position: 0 -1156px;
+	height: 26px;
+    width: 27px;
+	opacity: 0;
+}
+.bed2{
+	left: 223px;
+}
+.shoes2{
+	left: 295px;
+}
+.clothes2{
+	left: 367px;
+}
+.bili2{
+	left: 425px;
+}
+.wash2{
+	left: 483px;
+}
+.eat2{
+	left: 543px;
+}
+.kitchen2{
+	left: 600px;
+}
+.child2{
+	left: 657px;
+}
+.pe2{
+	left: 717px;
+}
+.special2{
+	left: 780px;
+}
+
 
 .nav1{
-	width: 140px;
+	/*width: 140px;*/
 	float: left;
 	padding: 20px 23px;
 	padding-bottom: 30px;
@@ -264,7 +412,9 @@ input::-webkit-input-placeholder{
 	display: none;
 	border: 1px solid #f0f0f0;	
 }
-
+.btns4{
+	width: 100px;
+}
 #topC2{
 	height: 60px;
 }
@@ -283,16 +433,7 @@ input::-webkit-input-placeholder{
 	padding-top: 15px;
 }
 
-#navIcon1{
-	position: absolute;
-	top: 37px;
-	left: 223px;
-	background-image: url(../img/header/icon.png);
-	background-position: 0 -1156px;
-	height: 26px;
-    width: 27px;
-	opacity: 0;
-}
+
 
 .btns2:hover #navIcon1{
 	opacity: 1;
@@ -300,7 +441,7 @@ input::-webkit-input-placeholder{
 	transition: all 0.2s;
 }
 
-#secondBox{
+/*#secondBox{
 	width: 745px;
 	background: white;
 	position: absolute;
@@ -308,7 +449,7 @@ input::-webkit-input-placeholder{
 	left: 0px;
 	display: none;
 	transition: all .2s;
-}
+}*/
 
 .navPic2{
 	width: 50px;
@@ -332,6 +473,7 @@ input::-webkit-input-placeholder{
 	margin-left: 20px;
 	position: absolute;
 	top: 15px;
+	cursor: pointer;
 }
 
 #shopCar1{
@@ -340,6 +482,7 @@ input::-webkit-input-placeholder{
 	position: absolute;
 	top: 15px;
 	right: 320px;
+	cursor: pointer;
 }
 
 #num1{
@@ -353,4 +496,12 @@ input::-webkit-input-placeholder{
 	position: absolute;
 	top: 15px;
 	right: 370px;
+}
+#secondBox>.nav1>.btns3>a{
+	text-decoration: none;
+	display: inline-block;
+    margin-top: 15px;
+}
+#secondBox>.nav1>.btns3>a:hover{
+	color: #B4A078;
 }

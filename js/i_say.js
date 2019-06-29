@@ -31,7 +31,7 @@ $(function(){
 		function inter(){
 			timer = setInterval(function(){
 				iNow++;
-				if(iNow>4){
+				if(iNow>7){
 					iNow=0;
 					changePic(iNow);
 					$('.say_goods').css('transition','')
@@ -48,7 +48,7 @@ $(function(){
 			clearInterval(timer);
 			iNow--;
 			if(iNow<0){
-				iNow = $('.say_Box').length-3;
+				iNow = 0;
 			}
 			changePic(iNow);
 			$('.say_goods').css('transition','all 0.5s')
@@ -59,9 +59,7 @@ $(function(){
 			clearInterval(timer);
 			iNow++;
 			if(iNow>4){
-				if(iNow = $('.say_Box').length-1){
-					iNow = 0;
-				}
+				iNow = 4;
 			}
 			changePic(iNow);
 			$('.say_goods').css('transition','all 0.5s')

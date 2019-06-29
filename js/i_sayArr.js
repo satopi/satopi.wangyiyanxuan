@@ -53,4 +53,28 @@ var srr1 = [{
 			"title": "岁月流金女式石英手表",
 			"price": "¥199",
 			"evaluate": "好看"
+		},
+		{
+			"src": "img/i_say/i_say0.jpg",
+			"name": "B****i",
+			"date": "2018-11-19 01:55",
+			"title": "网易智造3D可逆循环扇",
+			"price": "¥499",
+			"evaluate": "系统默认好评"
+		},
+		{
+			"src": "img/i_say/i_say1.jpg",
+			"name": "P****y",
+			"date": "2018-11-17 14:28",
+			"title": "自发电免电池电子秤",
+			"price": "¥149",
+			"evaluate": "自发电还是挺方便的，就是投物要5秒才称重有些使用不便，增减就比较麻烦"
+		},
+		{
+			"src": "img/i_say/i_say2.jpg",
+			"name": "m****5",
+			"date": "2018-11-17 00:38",
+			"title": "韩国制造 便携袋装代餐粉 25克*14袋",
+			"price": "¥99",
+			"evaluate": "真不错"
 		}]

@@ -83,3 +83,8 @@
 	top: -20px;
 	left: -170px;
 }
+
+#login_footer{
+	position: absolute;
+	z-index: -1;
+}

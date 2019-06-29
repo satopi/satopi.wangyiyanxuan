@@ -37,7 +37,8 @@
 	margin-left: 650px;
 	position: absolute;
 	top: 380px;
-	z-index: 8;
+	z-index: 1;
+	cursor: pointer;
 }
 
 .picBtn{
@@ -63,6 +64,7 @@
 	top: 200px;
 	z-index: 2;
 	left: 100px;
+	cursor: pointer;
 }
 
 #rightButton{
@@ -73,7 +75,8 @@
 	top: 200px;
 	z-index: 2;
 	right: -1430px;
-	top:205px
+	top:205px;
+	cursor: pointer;
 }
 
 #leftButton:hover{

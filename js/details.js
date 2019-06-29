@@ -29,7 +29,7 @@ $(function(){
 	//切换
 	$('.detailsBtn').mousemove(function(){
 		var i = $('.detailsBtn').index(this);
-		var path = 'img/details/d_bigPic'+i+'.jpg';
+		var path = '../img/details/d_bigPic'+i+'.jpg';
 		$('.detailsPic img').attr('src',path);
 	})
 	

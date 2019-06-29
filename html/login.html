@@ -2,48 +2,49 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>登录</title>
-		<link rel="stylesheet" href="commonCss/base.css" />
-		<link rel="stylesheet" href="commonCss/rightSide.css" />
-		<link rel="stylesheet" href="css/login.css" />
-		<link rel="stylesheet" href="commonCss/header.css" />
-		<link rel="stylesheet" href="commonCss/icon.css" />
-		<link rel="stylesheet" href="commonCss/iconfont.css" />
-		<link rel="stylesheet" href="commonCss/footer.css" />
-		<script type="text/javascript" src="commonJs/jquery.js" ></script>
-		<script type="text/javascript" src="js/login.js" ></script>
-		<script type="text/javascript" src="commonJs/login.js" ></script>
+		<title>登录 - 网易严选</title>
+		<link rel="stylesheet" href="../commonCss/base.css" />
+		<link rel="stylesheet" href="../commonCss/rightSide.css" />
+		<link rel="stylesheet" href="../css/login.css" />
+		<link rel="stylesheet" href="../commonCss/header.css" />
+		<link rel="stylesheet" href="../commonCss/icon.css" />
+		<link rel="stylesheet" href="../commonCss/iconfont.css" />
+		<link rel="stylesheet" href="../commonCss/footer.css" />
+		<link rel="shortcut icon" href="../img/favicon.ico?r=gold" type="image/x-icon">
+		<script type="text/javascript" src="../commonJs/jquery.js" ></script>
+		<script type="text/javascript" src="../js/login.js" ></script>
+		<script type="text/javascript" src="../commonJs/login.js" ></script>
 	</head>
 	<body>
 		<!--头部-->
 		<header></header>
 		<script>
-			$('header').load("commonHtml/header.html")
+			$('header').load("../commonHtml/header.html")
 		</script>
 		
 		<!--登录-->
 		<div id="login_bg" class="c">
 			<div class="login_box">
 				<section class="login_box1">
-					<span class="login_text" id="telLogin">手机号登录</span>
+					<span class="login_text t1" id="telLogin">手机号登录</span>
 					<span class="login_text" id="emailLogin">邮箱登录</span>
 					<p class="usePsd">使用密码验证登录</p>
 					<div id="loginByEmail">
 						<section class="login_input" id="loginIput1">
-							<img src="img/login/login3.PNG" class="login_icon"/>
+							<img src="../img/login/login3.PNG" class="login_icon"/>
 							<input type="text" placeholder="邮箱账号" class="login_telInput" id="loginEmailInput"/>
 						</section>
 						<p class="tips">
-							<img src="img/login/login2.PNG" />
+							<img src="../img/login/login2.PNG" />
 							<span id="telTips">请输入正确的邮箱</span>
 						</p>
 						
 						<section class="login_input" id="loginIput2">
-							<img src="img/login/login4.PNG" class="login_icon"/>
+							<img src="../img/login/login4.PNG" class="login_icon"/>
 							<input type="password" placeholder="请输入密码" class="login_telInput" id="loginTelInput"/>
 						</section>
 						<p class="tips">
-							<img src="img/login/login2.PNG" />
+							<img src="../img/login/login2.PNG" />
 							<span id="telTips">请输入正确的密码</span>
 						</p>
 					</div>
@@ -51,10 +52,10 @@
 					<input type="button" class="login" id="loginButton" value="登&nbsp;录"></input>
 				</section>
 				<section class="login_box2">
-					<img src="img/login/login1.PNG" id="login_pic"/>
+					<img src="../img/login/login1.PNG" id="login_pic"/>
 					<div class="login_text2">
 						<a href="register.html" style="outline: none;text-decoration: none;color: #999999;">
-							<span>手机快捷注册</span>
+							<span style="color: crimson;">手机快捷注册</span>
 						</a>
 						<span>忘记密码？</span>
 					</div>
@@ -67,7 +68,7 @@
 			<aside></aside>
 		</div>
 		<script>
-			$('aside').load("commonHtml/rightSide.html")
+			$('aside').load("../commonHtml/rightSide.html")
 		</script>
 		
 		<!--脚部-->
@@ -75,7 +76,7 @@
 			<footer></footer>
 		</div>
 		<script>
-			$('footer').load("commonHtml/footer.html")
+			$('footer').load("../commonHtml/footer.html")
 		</script>
 	</body>
 </html>

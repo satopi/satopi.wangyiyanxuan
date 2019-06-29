@@ -22,6 +22,7 @@
 	width: 690px;
 	height: 380px;
 	float: left;
+	cursor: pointer;
 }
 
 .s_pic2{
@@ -29,4 +30,5 @@
 	height: 185px;
 	margin-left: 10px;
 	margin-bottom: 10px;
+	cursor: pointer;
 }

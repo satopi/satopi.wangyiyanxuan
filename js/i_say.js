@@ -33,12 +33,12 @@ $(function(){
 				iNow++;
 				if(iNow>7){
 					iNow=0;
-					changePic(iNow);
-					$('.say_goods').css('transition','')
+					$('.say_goods').css('left',-iNow*365);
+					iNow = 1;
 				}
 				else{
 					changePic(iNow);
-					$('.say_goods').css('transition','all 0.5s')
+					$('.say_goods').stop().animate({'left':-iNow*365},300)
 				}
 				changePic(iNow);
 			},2000)
@@ -51,18 +51,19 @@ $(function(){
 				iNow = 0;
 			}
 			changePic(iNow);
-			$('.say_goods').css('transition','all 0.5s')
 			console.log('向前'+iNow);
 			inter();
 		})
 		$('#say_rightButton').click(function(){
 			clearInterval(timer);
 			iNow++;
-			if(iNow>4){
-				iNow = 4;
+			if(iNow>7){
+				iNow = 0;
+				$('.say_goods').css('left',-iNow*365);
+				iNow = 1;
 			}
 			changePic(iNow);
-			$('.say_goods').css('transition','all 0.5s')
+			$('.say_goods').stop().animate({'left':-iNow*365},300)
 			console.log('向后'+iNow);
 			inter();
 		})
@@ -70,7 +71,7 @@ $(function(){
 		function changePic(){
 			var nowleft = -iNow*365;
 			console.log(nowleft)
-			$('.say_goods').css('left',nowleft)
+			$('.say_goods').stop().animate({'left':-iNow*365},300)
 		}
 	}
 })
